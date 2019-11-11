@@ -1,0 +1,17 @@
+GitHub API test using TestNG, Jackson Databind and Spring-Web frameworks.
+
+There's tow User classes inside the project.
+'BaseUser' class describes a specific user's info.
+'GitHubUser' contains all the fields being mapped from the JSON-response from the URL, specified in class 'Endpoints'.
+
+Test steps:
+1. Check if the 'URL' returned by GitHub is equal to the URL specified in the class 'Endpoints'
+2. Check if the 'ID' returned by GitHub is more or equal to 1 (ID is equal to the number the user was registered)
+3. Check if the 'type' returned by GitHub is equal to the related field specified in 'BaseUser' class (User)
+4. Check if the 'name' returned by GitHub is equal to the related field specified in 'BaseUser' class (Yaroslav Nochnyk)
+5. Check if the 'location' returned by GitHub is equal to the related field specified in 'BaseUser' class (Kiev, Ukraine)
+6. Check if the numbers of 'followers' and 'following' people is more or equal to 0
+7. Check if the 'created_at' returned by GitHub is equal to the related field specified in 'BaseUser' class (2019-03-19)
+
+
+
