@@ -1,15 +1,14 @@
-# BookingComSearchTest
-Search functionality tests performed for website: https://www.booking.com/
+# GitHubAPITest
+GitHub API test using TestNG, Jackson Databind and Spring-Web frameworks.
 ## Prerequisites
 * **JDK version >= 11.0.1**
 * **Apache Maven version >= 3.6.0**
-* **Google Chrome version <= 78.0**
-* **FireFox Mozilla version <= 70.0**
-* **Internet Explorer version <= 11.0**
 ## Project structure
-* [src/main/resources/Info.txt](https://github.com/y-nochnyk/BookingComSearchTest/blob/master/src/main/resources/Info.txt) - detailed information about all the tests
-* [src/main/java/Page.java](https://github.com/y-nochnyk/BookingComSearchTest/blob/master/src/main/java/Page.java) - the class describing all the elements of the website and the methods used for all the tests
-* [src/test/java/BookingTest.java](https://github.com/y-nochnyk/BookingComSearchTest/blob/master/src/test/java/BookingTest.java) - all the tests, which may be performed for each of three (Chrome, FireFox, Internet Explorer) browsers using TestNG
+* [src/main/java/BaseUser.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/main/java/BaseUser.java) - detailed information about all the tests
+* [src/test/java/GitHubUser.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/main/java/GitHubUser.java) - all the tests, which may be performed for each of three (Chrome, FireFox, Internet Explorer) browsers using TestNG
+* [src/main/java/Endpoints.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/main/java/Endpoints.java) - the class describing all the elements of the website and the methods used for all the tests
+* [src/main/resources/Info.txt](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/main/resources/Info.txt) - the class describing all the elements of the website and the methods used for all the tests
+* [src/test/java/GitHubTest.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/test/java/GitHubTest.java) - the class describing all the elements of the website and the methods used for all the tests
 ## Run 
 * **To run tests for Chrome:**
 <br>Uncomment line 36 in the file BookingTest.java.
