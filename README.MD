@@ -10,7 +10,7 @@ GitHub API test using TestNG, Jackson Databind and Spring-Web frameworks.
 * [src/main/java/Endpoints.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/main/java/Endpoints.java) - the class where the GitHub URL field is specified
 * [src/test/java/GitHubTest.java](https://github.com/y-nochnyk/GitHubAPITest/blob/master/src/test/java/GitHubTest.java) - the class where all the tests are stored
 ## Run 
-* **To run tests from the terminal use:** 
+**To run tests from the terminal use:** 
 ```
 mvn clean install
 ```
